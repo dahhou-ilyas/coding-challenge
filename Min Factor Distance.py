@@ -7,3 +7,5 @@ def min_distance(n):
     for i in range(len(spis) - 1):
         res = min(res, abs(spis[i] - spis[i+1]))
     return res
+
+
